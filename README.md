@@ -1,5 +1,6 @@
 # __Case Loja Maria Bonita - CRUD__
 __Por: Alexsandro Augusto Ignácio | 2020__
+__Link para acessar o projeto:https://app-maria-bonita.herokuapp.com/__
 
 Projeto desenvolvido para a loja Maria Bonita.
 
