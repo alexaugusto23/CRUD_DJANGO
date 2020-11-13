@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('<h1>Receitas</h1>')
+    return HttpResponse('<h1>Cadastro de Clientes</h1>')
