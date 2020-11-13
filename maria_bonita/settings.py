@@ -25,7 +25,7 @@ SECRET_KEY = 'hnmkn@#22rkpp-j0rc6%yo%=l+^9&_m7jpazwz*y(ffejmm!dg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['app-maria-bonita.herokuapp.com']
 
 
 # Application definition
