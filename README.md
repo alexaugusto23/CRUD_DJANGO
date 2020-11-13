@@ -1,5 +1,5 @@
-# __Case Loja Maria Bonita CRUD__
-__Por: Alexsandro Augusto Ignácio e instrutor | 2020__
+# __Case Loja Maria Bonita - CRUD__
+__Por: Alexsandro Augusto Ignácio | 2020__
 
 Projeto desenvolvido para a loja Maria Bonita.
 
