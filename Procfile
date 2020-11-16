@@ -1,1 +1,1 @@
-web: gunicorn maria_bonita.wsgi
+web: gunicorn setup.wsgi
