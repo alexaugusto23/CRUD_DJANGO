@@ -3,8 +3,8 @@
 {% load static%}
 
     <section class="container mt-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="{% url 'index' %}">Cadastro</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success d-flex justify-content-center">
+            <a class="navbar-brand text-light" href="{% url 'index' %}">Cadastro</a>
         </nav>
         <p>Nome:               {{form.nome.value}}            </p>
         <p>Celular:            {{form.celular.value}}         </p>
