@@ -28,6 +28,7 @@ ALLOWED_HOSTS = ["app-loja-maria-bonita.herokuapp.com","127.0.0.1"]
 # Application definition
 
 INSTALLED_APPS = [
+    'tempus_dominus',
     'cadastro_loja',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -130,3 +131,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'setup/static')
 ]
+
+TEMPUS_DOMINUS_LOCALIZE = True
