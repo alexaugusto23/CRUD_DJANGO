@@ -22,7 +22,7 @@ SECRET_KEY = 'p&0=w8)dl0@_eu)n(uv3*48+2k0g4jxqk$rtwvsi0+4#tflo)7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["app-maria-bonita.herokuapp.com","127.0.0.1"]
+ALLOWED_HOSTS = ["app-loja-maria-bonita.herokuapp.com","127.0.0.1"]
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
