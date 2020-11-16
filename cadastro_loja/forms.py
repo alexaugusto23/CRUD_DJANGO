@@ -8,6 +8,6 @@ class Cadastro_lojaForms(forms.Form):
     bairro = forms.CharField(label='Bairro', max_length=100)
     cep = forms.CharField(label='CEP', max_length=8)
     referencia = forms.CharField(label='Referência', max_length=100)
-    email = forms.CharField(label='Email', max_length=100)
+    email = forms.CharField(label='E-mail', max_length=100)
 
 
