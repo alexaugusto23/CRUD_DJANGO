@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class PassagensConfig(AppConfig):
-    name = 'passagens'
+class Cadastro_lojaConfig(AppConfig):
+    name = 'cadastro_loja'

@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from passagens.forms import PassagemForms
+from cadastro_loja.forms import  Cadastro_lojaForms
 
 def index(request):
-    form = PassagemForms()
+    form =  Cadastro_lojaForms()
     contexto = {'form':form}
     return render(request,'index.html', contexto)

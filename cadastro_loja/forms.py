@@ -1,7 +1,13 @@
 from django import  forms
 
-class PassagemForms(forms.Form):
-    origem = forms.CharField(label='Origem', max_length=100)
-    destino = forms.CharField(label='Destino', max_length=100)
-    data_ida = forms.DateField(label='Ida')
-    data_volta = forms.DateField(label='Volta')
+class Cadastro_lojaForms(forms.Form):
+    nome = forms.CharField(label='Nome', max_length=100)
+    celular = forms.CharField(label='Celular', max_length=100)
+    data_nascimento = forms.DateField(label='Data de Nascimento')
+    endereco = forms.DateField(label='Endereço')
+    bairro = forms.CharField(label='Bairro', max_length=100)
+    cep = forms.CharField(label='CEP', max_length=8)
+    referencia = forms.CharField(label='Referência', max_length=100)
+    email = forms.CharField(label='Email', max_length=100)
+
+
