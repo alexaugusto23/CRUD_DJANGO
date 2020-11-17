@@ -7,10 +7,12 @@ def index(request):
     return render(request, 'index.html', contexto)
 
 def revisao_consulta(request):
-    
     if request.method  == 'POST':
         form = Cadastro_lojaForms(request.POST)
-        contexto = {'form':form}
-        return render(request, 'consulta.html', contexto)
-    else:
-        return render(request, 'consulta.html')
+        if form.is_valid():
+            contexto = {'form':form}
+            return render(request, 'consulta.html', contexto)
+        else:
+            print('Form inválido')
+            contexto = {'form':form}
+            return render(request, 'index.html', contexto)
